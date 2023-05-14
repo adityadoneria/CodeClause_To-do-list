@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  form input[type="text"], form select {
+    flex: 1 1 200px;
+    margin-right: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  form select {
+    appearance: none;
+    background-color: white;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpolygon fill='%23444' points='10 13.5 6.5 10 13.5 10'/%3E%3C/svg%3E");
+    background-position: right 10px center;
+    background-repeat: no-repeat;
+    background-size: 14px;
+  }
+  
+  form button {
+    padding: 10px;
+    background-color: #1abc9c;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #16a085;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  li .task {
+    flex: 1 1 auto;
+  }
+  
+  li .priority {
+    flex: 0 0 auto;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  li .low {
+    background-color: #2ecc71;
+  }
+  
+  li .medium {
+    background-color: #f1c40f;
+  }
+  
+  li .high {
+    background-color: #e74c3c;
+  }
+  
+  li button {
+    background-color: #c0392b;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  li button:hover {
+    background-color: #a93226;
+  }
+  
